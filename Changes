@@ -1,0 +1,9 @@
+Revision history for Perl extension Finance::Bank::AllianceAndLeicester.
+
+1.00  Mon Jun 26 13:38:23 2006
+        - Final 1.00 release
+
+0.01  Fri Jun 23 20:39:49 2006
+	- original version; created by h2xs 1.23 with options
+		-X -n Finance::Bank::AllianceAndLeicester
+
