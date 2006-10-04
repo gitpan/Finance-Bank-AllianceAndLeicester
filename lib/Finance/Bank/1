@@ -1,7 +1,7 @@
 package Finance::Bank::AllianceAndLeicester;
 use strict;
 use Carp;
-our $VERSION = '1.01';
+our $VERSION = '1.00';
 
 use WWW::Mechanize;
 use HTML::TokeParser;
@@ -211,7 +211,7 @@ Andy Lester (and Skud, by continuation) for WWW::Mechanize, Gisle Aas for HTML::
 
 =item Version 1.01 - 04/10/2006 - Ian Bissett <ian@tekuiti.co.uk>
 
-* Strip commas (',') from balances.
+* Strip commas from balances.
 
 =back
 
