@@ -1,7 +1,7 @@
 package Finance::Bank::AllianceAndLeicester;
 use strict;
 use Carp;
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 use WWW::Mechanize;
 use HTML::TokeParser;
@@ -208,6 +208,10 @@ Andy Lester (and Skud, by continuation) for WWW::Mechanize, Gisle Aas for HTML::
 =head1 CHANGELOG
 
 =over
+
+=item Version 1.02 - 10/10/2006 - Ian Bissett <ian@tekuiti.co.uk>
+
+* Reduced PERL version in Makefile.PL to 5.006001 which should solve some installation issues.
 
 =item Version 1.01 - 04/10/2006 - Ian Bissett <ian@tekuiti.co.uk>
 
